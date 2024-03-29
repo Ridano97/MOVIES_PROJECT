@@ -11,11 +11,13 @@ const NavBar = () => {
     return <>
             <NavbarBootstrap bg="dark" data-bs-theme="dark">
         <Container>
-          <NavbarBootstrap.Brand href="#home"><h1>MOVIES & CHILL </h1></NavbarBootstrap.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <NavbarBootstrap.Brand href="#home"><h1>MOVIES & CHILL</h1></NavbarBootstrap.Brand>
+          <Nav >
+            <Nav.Link href="/films"><span className='text-white'>Films</span></Nav.Link>
+            <Nav.Link href="/series"><span className='text-white'>Series</span></Nav.Link>
+            <Nav.Link href="/pages"><span className='text-white'>Animes</span></Nav.Link>
+            <Nav.Link href="/tvshows"><span className='text-white'>TV shows</span></Nav.Link>
+            
           </Nav>
         </Container>
       </NavbarBootstrap>
