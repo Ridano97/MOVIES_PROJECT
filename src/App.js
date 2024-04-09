@@ -16,7 +16,6 @@ function App() {
   return <>
       <BrowserRouter>
         <NavBar/>
-        <Container>
             <Routes>
               <Route path="/films" element={<PagesFilms/>} />
               <Route path="/series" element={<PagesSeries/>} />
@@ -25,7 +24,6 @@ function App() {
               <Route path='/detailscards' element={<PagesDetailsCards/>} />
               <Route path='/accueil' element={<PagesPrincipale/>} />
             </Routes>
-          </Container>
           <Footer />
     </BrowserRouter>
   </>
