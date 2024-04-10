@@ -32,7 +32,7 @@ return <>
 
       <div className="bg-black p-5">
         <h2 className=" bg-black text-center text-white mt-5 p-5">
-          Lights, camera, anime! Discover a world of TV shows on my otaku-friendly movie website! 🎬📺
+          Lights, camera, anime! Discover a world of TV shows! 🎬📺
         </h2>
       </div>
     

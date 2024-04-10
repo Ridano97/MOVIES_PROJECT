@@ -13,7 +13,7 @@ const NavBar = () => {
         <Container>
           <NavbarBootstrap.Brand className='text-white' ><h1>MOVIES <span className='text-warning'>&</span> CHILL</h1></NavbarBootstrap.Brand>
           <Nav >
-          <Nav.Link className='cursor text-white' href="/accueil"><span>Accueil</span></Nav.Link>
+          <Nav.Link className='cursor text-white' href="/accueil"><span>Home</span></Nav.Link>
           <Nav.Link className='cursor text-white' href="/latest"><span>Latest</span></Nav.Link>
           <Nav.Link className='cursor text-white' href="/toprated"><span>Top Rated</span></Nav.Link>
           <Nav.Link className='cursor text-white' href="/tvshow"><span>TV show</span></Nav.Link>

@@ -58,12 +58,6 @@ const PagesAccueil = () => {
         <br />
         <br />
       </div>
-      <div className="bg-white p-5 border-top border-white">
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
     </>
   );
 };

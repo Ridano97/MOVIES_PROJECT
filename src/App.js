@@ -20,7 +20,7 @@ function App() {
               <Route path="/tvshow" element={<PagesEmissionsTV/>} />
               <Route path="/toprated" element={<PagesPopulaires/>} />
               <Route path='/trends' element={<PagesTendance/>} />
-              <Route path='/detailscards' element={<PagesDetailsCards/>} />
+              <Route path='/detailscards/:id' element={<PagesDetailsCards/>} />
               <Route path='/latest' element={<PagesDernieresSorties/>} />
             </Routes>
           <Footer />
