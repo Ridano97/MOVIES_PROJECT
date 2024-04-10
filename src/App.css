@@ -1,7 +1,35 @@
-.blue-night {
-    background-color: #000861;
+@font-face {
+    font-family: Poppins;
+    src: url(./Assets/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rowdies;
+    src: url(./Assets/Rowdies-Bold.ttf);
 }
 
 * {
     margin : 0;
+    font-family: Poppins;
 }
+
+.blue-night {
+    background-color: #000861;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    font-weight: bolder;
+    color: #FFC008 !important;
+}
+
+h1 {
+    font-family: Rowdies;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    color: #5A4BFB !important;
+}
+

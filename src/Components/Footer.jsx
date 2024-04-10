@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <Navbar className="blue-night border-top border-white">
         <Container>
-          <Navbar.Brand className="text-white">MOVIES & CHILL </Navbar.Brand>
+          <Navbar.Brand className="text-white">MOVIES & CHILL© 2024</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text className="p-2 text-white">

@@ -9,15 +9,16 @@ import {Navbar as NavbarBootstrap }from 'react-bootstrap';
 const NavBar = () => {
 
     return <>
-            <NavbarBootstrap className='blue-night border-bottom border-white'>
+            <NavbarBootstrap fixed="top" className='blue-night border-bottom border-white'>
         <Container>
-          <NavbarBootstrap.Brand href="/accueil" className='text-white' ><h1>MOVIES & CHILL</h1></NavbarBootstrap.Brand>
+          <NavbarBootstrap.Brand className='text-white' ><h1>MOVIES <span className='text-warning'>&</span> CHILL</h1></NavbarBootstrap.Brand>
           <Nav >
-            <Nav.Link href="/films"><span className='text-white'>Films</span></Nav.Link>
-            <Nav.Link href="/series"><span className='text-white'>Series</span></Nav.Link>
-            <Nav.Link href="/pagesanimes"><span className='text-white'>Animes</span></Nav.Link>
-            <Nav.Link href="/tvshows"><span className='text-white'>TV shows</span></Nav.Link>
-            
+          <Nav.Link className='cursor text-white' href="/accueil"><span>Accueil</span></Nav.Link>
+          <Nav.Link className='cursor text-white' href="/latest"><span>Latest</span></Nav.Link>
+          <Nav.Link className='cursor text-white' href="/toprated"><span>Top Rated</span></Nav.Link>
+          <Nav.Link className='cursor text-white' href="/tvshow"><span>TV show</span></Nav.Link>
+          {/*<Nav.Link href="/pagesanimes"><span className='text-white'>Animes</span></Nav.Link>*/}            
+          <Nav.Link className='cursor text-white' href="/tv"><span>Trends</span></Nav.Link>
           </Nav>
         </Container>
       </NavbarBootstrap>

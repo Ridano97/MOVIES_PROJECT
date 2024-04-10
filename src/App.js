@@ -2,14 +2,13 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import PagesAnimes from './Pages/PagesAnimes';
 import PagesDetailsCards from './Pages/PagesDetailsCards';
-import Container from 'react-bootstrap/Container';
-import PagesPrincipale from './Pages/PagesPrincipale';
-import PagesTVshows from './Pages/PagesTVshows';
-import PagesFilms from './Pages/PagesFilms';
-import PagesSeries from './Pages/PagesSeries';
+import PagesDernieresSorties from './Pages/PagesDernieresSorties';
+import PagesTV from './Pages/PagesTV';
+import PagesEmissionsTV from './Pages/PagesEmissionsTV';
 import Footer from './Components/Footer';
+import PagesAccueil from './Pages/PagesAccueil';
+import PagesPopulaires from './Pages/PagesPopulaires';
 
 
 function App() {
@@ -17,12 +16,12 @@ function App() {
       <BrowserRouter>
         <NavBar/>
             <Routes>
-              <Route path="/films" element={<PagesFilms/>} />
-              <Route path="/series" element={<PagesSeries/>} />
-              <Route path='/animes' element={<PagesAnimes/>} />
-              <Route path='/tvshows' element={<PagesTVshows/>} />
+              <Route path="/accueil" element={<PagesAccueil/>} />
+              <Route path="/tvshow" element={<PagesEmissionsTV/>} />
+              <Route path="/toprated" element={<PagesPopulaires/>} />
+              <Route path='/tv' element={<PagesTV/>} />
               <Route path='/detailscards' element={<PagesDetailsCards/>} />
-              <Route path='/accueil' element={<PagesPrincipale/>} />
+              <Route path='/latest' element={<PagesDernieresSorties/>} />
             </Routes>
           <Footer />
     </BrowserRouter>

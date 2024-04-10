@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Form from "react-bootstrap/Form";
 import CardsFilms from "../Components/CardsFilms";
-import LastMovies from "../Services/LastMoviesServices";
+import PopCorn from "../Assets/Untitled_design.png"
 
-const PagesPrincipale = () => {
+const PagesAccueil = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -17,8 +17,8 @@ const PagesPrincipale = () => {
   return (
     <>
       <div className="bg-black p-5">
-        <h2 className=" bg-black text-center text-white p-3">
-          Welcome to MOVIES & CHILL Discover a wide selection of diverse
+        <h2 className=" bg-black text-center text-white mt-5 p-3">
+          Welcome to <h1>MOVIES <span className='text-warning'>&</span> CHILL</h1> Discover a wide selection of diverse
           artworks and the latest releases!
         </h2>
       </div>
@@ -30,8 +30,9 @@ const PagesPrincipale = () => {
           placeholder="Find your happiness"
         />
       </div>
-      <div className="text-center p-5 blue-night text-white border-top border-white">
-        <h1>--THE LATEST FILMS--</h1>
+      <div className="text-center justify-content-center p-5 blue-night text-white border-top border-white d-flex">
+        <h1 className="p-1">--THE LATEST FILMS--</h1>
+        <img className="rounded-5 border border-3 border-warning" height={60} width={60} src={PopCorn} alt="popcorm_image" />
       </div>
       <div className="d-flex align-items justify-content-center p-5 blue-night flex-wrap">
         {movies.map((movie) => (
@@ -48,4 +49,4 @@ const PagesPrincipale = () => {
   );
 };
 
-export default PagesPrincipale;
+export default PagesAccueil;
