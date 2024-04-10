@@ -28,11 +28,9 @@ const PagesPopulaires = () => {
     
 
       <div className="bg-black p-5">
-        <h2 className=" bg-black text-center text-white p-3">
-            
+        <h2 className=" bg-black text-center mt-5 text-white p-5">
+        Explore the ultimate collection of blockbuster movies and hit TV series on my movie website! 🎥🍿
         </h2>
-      </div>
-      <div className="bg-black p-5">
       </div>
       <div className="text-center justify-content-center p-5 blue-night text-white border-top border-white d-flex">
         <h1 className="p-1 fs-1">--TOP RATED--</h1>

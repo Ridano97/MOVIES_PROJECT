@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PagesDetailsCards from './Pages/PagesDetailsCards';
 import PagesDernieresSorties from './Pages/PagesDernieresSorties';
-import PagesTV from './Pages/PagesTV';
+import PagesTendance from './Pages/PagesTendance';
 import PagesEmissionsTV from './Pages/PagesEmissionsTV';
 import Footer from './Components/Footer';
 import PagesAccueil from './Pages/PagesAccueil';
@@ -19,7 +19,7 @@ function App() {
               <Route path="/accueil" element={<PagesAccueil/>} />
               <Route path="/tvshow" element={<PagesEmissionsTV/>} />
               <Route path="/toprated" element={<PagesPopulaires/>} />
-              <Route path='/tv' element={<PagesTV/>} />
+              <Route path='/trends' element={<PagesTendance/>} />
               <Route path='/detailscards' element={<PagesDetailsCards/>} />
               <Route path='/latest' element={<PagesDernieresSorties/>} />
             </Routes>

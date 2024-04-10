@@ -18,7 +18,7 @@ const NavBar = () => {
           <Nav.Link className='cursor text-white' href="/toprated"><span>Top Rated</span></Nav.Link>
           <Nav.Link className='cursor text-white' href="/tvshow"><span>TV show</span></Nav.Link>
           {/*<Nav.Link href="/pagesanimes"><span className='text-white'>Animes</span></Nav.Link>*/}            
-          <Nav.Link className='cursor text-white' href="/tv"><span>Trends</span></Nav.Link>
+          <Nav.Link className='cursor text-white' href="/trends"><span>Trends</span></Nav.Link>
           </Nav>
         </Container>
       </NavbarBootstrap>

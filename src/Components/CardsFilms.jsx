@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const CardsFilms = ({movieCard}) => {
@@ -10,9 +9,9 @@ const CardsFilms = ({movieCard}) => {
       <Card className="m-4 cursor" style={{ width: "35rem" }}>
       {<Card.Img variant="top" src={"https://image.tmdb.org/t/p/w500"+movieCard.backdrop_path}/> }
         <Card.Body className="d-flex justify-content-center flex-column shadow p-3 mb-1 bg-white rounded">
-          <Card.Title className="text-center">{movieCard.title}</Card.Title>
+          <Card.Title className="text-center cursor">{movieCard.title}</Card.Title>
           <Card.Text className="text-center f-bold ">
-            {movieCard.overview}
+            <h3 className="cursor">{movieCard.name}</h3>
           </Card.Text>
           {/* <Button fixed="bottom" className="text-white" variant="warning">Watch</Button> */}
         </Card.Body>

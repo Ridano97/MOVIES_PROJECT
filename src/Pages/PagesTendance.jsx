@@ -3,7 +3,7 @@ import CardsFilms from "../Components/CardsFilms";
 import Televison from "../Assets/c.jpg"
 
 
-const PagesTV = () => {
+const PagesTendance = () => {
 
     const [tv, setTV] = useState([]);
 
@@ -36,8 +36,6 @@ const PagesTV = () => {
           Lights, camera, anime! Discover a world of TV shows on my otaku-friendly movie website! 🎬📺
         </h2>
       </div>
-      <div className="bg-black p-5">
-      </div>
       <div className="text-center justify-content-center p-5 blue-night text-white border-top border-white d-flex">
         <h1 className="p-1 fs-1">--TRENDS--</h1>
         <img className='rounded-5 border border-3 border-warning' width={70} height={60} src={Televison} alt="logo_TV" />
@@ -57,4 +55,4 @@ const PagesTV = () => {
     </>
 }
 
-export default PagesTV;
+export default PagesTendance;
