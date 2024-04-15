@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 const Footer = () => {
   return (
     <>
-      <Navbar className="blue-night border-top border-white">
+      <Navbar className="blue-night border-top border-2 border-white">
         <Container>
           <Navbar.Brand className="text-white">MOVIES & CHILL© 2024</Navbar.Brand>
           <Navbar.Toggle />

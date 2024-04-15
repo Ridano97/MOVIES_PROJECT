@@ -13,8 +13,17 @@
     font-family: Poppins;
 }
 
-.blue-night {
-    background-color: #000861;
+.space {
+    background-image: url(../src/Assets/space.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color:  #23181F;
+   
 }
 
 .cursor {
@@ -26,10 +35,16 @@
     color: #FFC008 !important;
 }
 
-h1 {
+
+/* h1 {
     font-family: Rowdies;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
     color: #5A4BFB !important;
 }
+ */
 
+
+.color_button {
+    color: rgb(50, 10, 50);
+}
