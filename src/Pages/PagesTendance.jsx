@@ -31,25 +31,25 @@ const PagesTendance = () => {
 
     return <>
 
-      <div className="bg-black p-5">
-      <h2 className=" bg-black text-center text-white mt-5 p-5">
-      Step into the spotlight and catch the latest trends!" 🌟🎬
-        </h2>
-      </div>
-      <div className="text-center justify-content-center p-5 blue-night text-white border-top border-white d-flex">
-        <h1 className="p-1 fs-1">--TRENDS--</h1>
-        <img className='rounded-5 border border-3 border-warning' width={70} height={60} src={Televison} alt="logo_TV" />
-      </div>
-      <div className="d-flex align-items justify-content-center p-5 blue-night flex-wrap">
-        {tv.map((movie) => (
-                <CardsFilms movieCard={movie}/>
-            ))}
-      </div>
-      <div className="bg-black p-5 border-top border-white">
-        <br />
-        <br />
-        <br />
-        <br />
+      <div className="space p-5">
+        <h2 className=" galaxy text-center border border-2 border-white text-white mt-5 p-5">
+        Step into the spotlight and catch the latest trends!" 🌟📈
+          </h2>
+        <div className="text-center justify-content-center p-5 blue-night text-white d-flex">
+          <h1 className="p-1 fs-1">--TRENDS--</h1>
+          <img className='rounded-5 border border-3 border-warning' width={70} height={60} src={Televison} alt="logo_TV" />
+        </div>
+        <div className="d-flex align-items justify-content-center p-5 blue-night flex-wrap">
+          {tv.map((movie) => (
+                  <CardsFilms movieCard={movie}/>
+              ))}
+        </div>
+        <div className="galaxy p-5 border border-2 border-white">
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
       </div>
 
     </>

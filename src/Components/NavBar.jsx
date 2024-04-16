@@ -38,7 +38,7 @@ const NavBar = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-warning">Search</Button>
+            <Button className='btn-primary text-white' variant="outline-light">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

@@ -15,11 +15,23 @@
 
 .space {
     background-image: url(../src/Assets/space.png);
+    background-origin: border-box;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* background-attachment: scroll; */
+    
 }
+
+.btn-primary{
+    background-color: #030C34 !important;
+}
+
+.btn-primary:hover {
+    background-color: #6407de !important;
+}
+
 
 .navbar{
     background-color:  #23181F;
@@ -32,9 +44,12 @@
 
 .cursor:hover {
     font-weight: bolder;
-    color: #FFC008 !important;
+    color: #6407de !important;
 }
 
+.galaxy {
+    background-color: #030c348d;
+}
 
 /* h1 {
     font-family: Rowdies;
@@ -44,7 +59,23 @@
 }
  */
 
+p {
+    font-size: 30px;
+    margin-top: 150px !important;
+    position: absolute;
+    font-weight: bold ;
+    color: white;
+}
 
-.color_button {
-    color: rgb(50, 10, 50);
+h2 {
+    font-weight: bold !important;
+    font-size: 35px !important;
+}
+
+.welcome {
+    font-size:35px;
+    margin-bottom: 160px !important;
+    position: absolute;
+    font-weight: bold;
+    color: white;
 }
