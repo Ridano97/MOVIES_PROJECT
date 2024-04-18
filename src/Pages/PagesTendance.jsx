@@ -36,7 +36,7 @@ const PagesTendance = () => {
         Step into the spotlight and catch the latest trends!" 🌟📈
           </h2>
         <div className="text-center justify-content-center p-5 blue-night text-white d-flex">
-          <h1 className="p-1 fs-1">--TRENDS--</h1>
+          <h1 className="p-1">--TRENDS--</h1>
           <img className='rounded-5 border border-3 border-warning' width={70} height={60} src={Televison} alt="logo_TV" />
         </div>
         <div className="d-flex align-items justify-content-center p-5 blue-night flex-wrap">

@@ -8,6 +8,11 @@
     src: url(./Assets/Rowdies-Bold.ttf);
 }
 
+@font-face {
+    font-family: Bebas ;
+    src: url(./Assets/BebasNeue-Regular.ttf);
+}
+
 * {
     margin : 0;
     font-family: Poppins;
@@ -37,6 +42,10 @@
     background-color:  #23181F;
    
 }
+.block-affiche{
+    background-color:  #23181f96;
+   
+}
 
 .cursor {
     cursor: pointer;
@@ -51,21 +60,22 @@
     background-color: #030c348d;
 }
 
-/* h1 {
-    font-family: Rowdies;
-    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+h1 {
+    font-family: Bebas !important;
+   /*  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
-    color: #5A4BFB !important;
+    color: #5A4BFB !important; */
+    font-size: 70px !important;
 }
- */
 
-p {
+
+#accroche {
     font-size: 30px;
     margin-top: 150px !important;
     position: absolute;
     font-weight: bold ;
     color: white;
-}
+} 
 
 h2 {
     font-weight: bold !important;

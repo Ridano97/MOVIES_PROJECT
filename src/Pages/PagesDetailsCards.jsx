@@ -34,6 +34,7 @@ const PagesDetailsCards = () => {
             <br /><br />
             <p>{detailsCard.overview}</p> 
             <br /><br />
+            <img src="" alt="" />
             <p>Language : {detailsCard.original_language}</p> 
             <p>Popularity :  {detailsCard.popularity}</p>
             <p>Release : {detailsCard.release_date}</p>
