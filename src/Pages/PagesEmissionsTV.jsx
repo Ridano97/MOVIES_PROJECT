@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import CardsFilms from "../Components/CardsFilms";
 import Camera from "../Assets/camera.jpeg"
+import facebook from "../Assets/fb.avif"
+import x from "../Assets/x.avif"
+import insta from "../Assets/insta.avif"
 
 const PagesEmissionsTV  = () => {
   const [tele, setTele] = useState([]);
@@ -34,7 +37,7 @@ return <>
           <h2 className=" galaxy text-center border border-2 border-white text-white mt-5 p-5">
             Lights, camera, anime! Discover a world of TV shows! 🎬📺
           </h2>
-      
+    
       
         <div className="text-center justify-content-center p-5 blue-night text-white border-white d-flex">
           <h1 className="p-1">--SERIES & TV SHOW --</h1>
@@ -45,11 +48,10 @@ return <>
                   <CardsFilms movieCard={movie}/>
               ))}
         </div>
-        <div className="galaxy p-5 border-2 border border-white">
-          <br />
-          <br />
-          <br />
-          <br />
+        <div className="galaxy p-5 border border-2 border-white">
+          <a href="https://www.facebook.com" target='_blank'><img className='backgroundnone rounded-5' src={facebook} alt="logofb" /></a>
+          <a href="https://www.instagram.com" target='_blank' ><img className='backgroundnone rounded-5' src={insta} alt="logoinsta" /></a>
+          <a href="https://www.x.com" target='_blank' ><img className='backgroundnone rounded-5' src={x} alt="logox" /></a>
         </div>
       </div>
 

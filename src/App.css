@@ -57,7 +57,7 @@
 }
 
 .galaxy {
-    background-color: #030c348d;
+    background-color: #030c34ad;
 }
 
 h1 {
@@ -88,4 +88,13 @@ h2 {
     position: absolute;
     font-weight: bold;
     color: white;
+}
+
+.backgroundnone {
+    background: none;
+    background-color: none;
+    height: 120px;
+    width: 150px;
+    border: 20px solid #030C34;
+
 }
