@@ -49,7 +49,7 @@ const SmallCarousel = ({ cards }) => {
       {cards.map((m, index) => (
         <div key={index}>
           <img 
-            className="p-2 rounded-5"
+            className="border border-white border-2 p-2 rounded-5"
             src={`https://image.tmdb.org/t/p/original${m.backdrop_path}`} 
             alt={m.title} 
             style={{ height: "400px", width: "100%", objectFit: "cover", borderRadius: "5px" }} 
